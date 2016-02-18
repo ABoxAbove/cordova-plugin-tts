@@ -29,8 +29,8 @@
     }
     
     [[AVAudioSession sharedInstance] setActive:NO withOptions:0 error:nil];
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient 
-      withOptions: 0 error: nil];
+    //[[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient
+    //  withOptions: 0 error: nil];
     [[AVAudioSession sharedInstance] setActive:YES withOptions: 0 error:nil];
 }
 
